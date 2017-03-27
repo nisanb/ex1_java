@@ -9,7 +9,11 @@ public class Main {
 	private static String solution;
 
 	public static void main(String[] args) throws IOException, InterruptedException {
-		args = new String[] { "1", "100", "200" };
+		
+		//for test purposes
+		//args = new String[] { "1", "100", "200" };
+		
+		
 		// Take care of arguments exception
 		if (args.length != 3) {
 			System.out.println("Invalid number of arguments.");
