@@ -9,7 +9,7 @@
 @javac -classpath lib/json-simple-1.1.1.jar -sourcepath src src/*.java -d bin
 
 :: runs compiled model main class.
-@java -cp bin;lib/json-simple-1.1.1.jar Main
+@java -cp bin;lib/json-simple-1.1.1.jar Main 5 100 200
 
 :: pauses execution and displays "Press any key to continue...".
 @pause
