@@ -44,8 +44,8 @@ public class Main {
 
 				if (studentMistakes == 0) {
 					System.out.println("It seems like you have no more mistakes left.");
-					System.out.println("Returning...");
-					Thread.sleep(3000);
+					System.out.println("Please enter any key to continue...");
+					reader.next();
 					continue;
 				}
 				Integer numToCalculate = r.nextInt(maxBorder) + minBorder;
@@ -103,8 +103,8 @@ public class Main {
 				break;
 			}
 
-			System.out.println("Restarting application..");
-			Thread.sleep(3000);
+			System.out.println("Please enter any key to continue...");
+			reader.next();
 		}
 
 	}
